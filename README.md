@@ -27,7 +27,7 @@ module.exports = mongoose.model('Todo', Todo);
 
 ## 3. Server code modified
 
-The file `src/server/index.js` has been modified to use Mongoose and the Todo model to manipulate the database.
+The file `src/server/index.js` has been modified to use Mongoose and the Todo model to manipulate the database. Key changes are shown below. Detailed changes can be viewed in the [version history](https://github.com/IADT-AdvancedJS/mern-full-stack-todos-mongoose/commit/30adb53ef4867a8387b42cd6d37f553c74403bcd#diff-6e0d62f54b853b53af874f5965d7adf2).
 
 ### Connect
 ```javascript
